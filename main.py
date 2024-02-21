@@ -4,6 +4,8 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
+# EJECUTAR SERVIDOR
+# uvicorn main:app --reload
 
 @app.get("/")
 def read_root():
